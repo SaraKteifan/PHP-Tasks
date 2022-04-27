@@ -169,7 +169,25 @@ g.	Multiplication <br>
 h.	Division </b>";
 
 echo "<br> <br>";
-
+function calculator($fNum, $operation, $sNum){
+    $result;
+    switch ($operation){
+        case"+":
+            $result= $fNum + $sNum;
+            break;
+        case"-":
+            $result= $fNum - $sNum;
+            break;
+        case"*":
+            $result= $fNum * $sNum;
+            break;
+        case"/":
+            $result= $fNum / $sNum;
+            break;
+    }
+    echo "$fNum $operation $sNum = ".$result;
+}
+calculator(5, "+", 7);
 
 ////////////////////////////////////////////////10
 echo "<br> <br>";

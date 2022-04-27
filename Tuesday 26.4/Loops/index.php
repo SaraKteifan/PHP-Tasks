@@ -292,7 +292,7 @@ echo "=========================================<br>";
 echo "<b>12. Write a PHP program to print the following pattern. <br>
    
 Expected Output: <br>
-
+<pre>
      A <br>
     A B <br>
    A B C <br>
@@ -301,7 +301,7 @@ Expected Output: <br>
   A B C D <br>
    A B C <br>
     A B <br>
-     A </b>";
+     A </b></pre>";
 
 echo "<br> <br>";
 $space = 0;
